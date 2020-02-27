@@ -1,0 +1,154 @@
+html {
+    font-size: 10px;
+    font-family: "Lato", "Lato-Black";
+
+    letter-spacing: 0.001px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato Regular', sans-serif;
+    font-size: 1.6rem;
+    background-color: #fefefe;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.container3 {
+    margin: 0 auto;
+    background-color: #2D303A;
+    width: auto;
+    max-width: 1020px;
+    height: 870px;
+    border-bottom: 6px solid #323746;
+}
+
+
+
+.portfolio {
+    margin-left: 40px;
+    padding-top: 62px;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    color: #666d89;
+    font-family: "LatoBlack";
+    font-weight: bold;
+}
+
+.duis {
+    margin-left: 40px;
+    padding-top: 23px;
+    width: 940px;
+    height: 57px;
+    font-size: 1.8rem;
+    letter-spacing: 0.2px;
+    color: #767e9e;
+    font-family: "LatoLight";
+    font-weight: 400;
+}
+
+li {
+
+    display: inline;
+    list-style-type: none;
+}
+
+.portfolio__navigation {
+
+    margin-left: 41px;
+}
+
+.portfolio__navigation-item {
+    margin-right: 11px;
+    line-height: 5px;
+}
+
+.portfolio__navigation-item:nth-child(3) {
+    margin-left: -0.5px;
+}
+
+.portfolio__navigation-item:last-child {
+    margin-left: -3px;
+}
+
+.portfolio__navigation-button {
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 400;
+    color: #767e9e;
+    background-color: #2d303a;
+    border: 1px solid #767e9e;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0 6px 0 6px;
+    word-spacing: -0.001px;
+    letter-spacing: 0.001px;
+    height: 22px;
+    transition: .5s;
+}
+
+.portfolio__navigation-button:hover {
+    color: #dedede;
+    border: 1px solid #c5c5c5;
+    transition: .5s;
+}
+
+.portfolio__navigation-button_active {
+    padding: 0 6px 0 6px;
+    color: #dedede;
+    border: 1px solid #c5c5c5;
+}
+
+.portfolio__navigation-button {
+    outline: none;
+}
+
+.portfolio__projects {
+
+    margin-left: 40px;
+    height: 650px;
+    overflow: hidden;
+    margin-bottom: 67px auto;
+}
+
+.portfolio__projects-list {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio__projects-item {
+    margin-right: 20px;
+    margin-bottom: 16px;
+}
+
+.portfolio__projects-item:nth-child(4n) {
+    margin-right: 0;
+}
+
+.portfolio__projects-item:nth-last-child(-n+4) {
+    margin-bottom: 0;
+}
