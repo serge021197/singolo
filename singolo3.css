@@ -1,0 +1,253 @@
+html {
+    font-size: 10px;
+    font-family: "Lato", "Lato-Black";
+
+    letter-spacing: 0.001px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato Regular', sans-serif;
+    font-size: 1.6rem;
+    background-color: #fefefe;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.geta {
+    margin: 0 auto;
+    min-height: 655px;
+    width: 100%;
+    max-width: 1020px;
+    background-color: #f06c64;
+    border-bottom: 6px solid #ea676b;
+}
+
+
+
+.geta__h {
+    padding-left: 40px;
+    padding-top: 68px;
+    font-size: 30px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: 'LatoBlack';
+    font-weight: 700;
+}
+
+.geta__p {
+    padding-left: 40px;
+    padding-top: 27px;
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #f0d8d9;
+    font-family: "LatoLight";
+    font-weight: 300;
+    text-align: left;
+
+
+}
+
+.geta__content {
+    padding-left: 40px;
+    padding-top: 27px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+
+.geta__form form {
+    display: flex;
+    flex-direction: column;
+    width: 619px;
+}
+
+.geta__form input {
+    margin-bottom: 16px;
+    background-color: #d6564f;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    height: 36px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #f0d8d9;
+}
+
+.geta__form input::-webkit-input-placeholder {
+    color: #f48c8f;
+    font-family: 'Lato Regular', sans-serif;
+    word-spacing: -1px;
+}
+
+.geta__form textarea {
+    margin-bottom: 16px;
+    background-color: #d6564f;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    min-height: 188px;
+    font-size: 12px;
+    line-height: 12px;
+    padding-top: 12px;
+    width: 618px;
+    color: #f0d8d9;
+    resize: none;
+}
+
+.geta__form textarea::-webkit-input-placeholder {
+    color: #f48c8f;
+    font-family: 'Lato Regular', sans-serif;
+    word-spacing: -1px;
+}
+
+
+
+
+.geta__contacts {
+    padding-left: 21px;
+    margin-top: -1px;
+    color: #f0d8d9;
+}
+
+.geta__contacts h2 {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 900;
+    letter-spacing: 0.4px;
+}
+
+.geta__contacts p {
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-bottom: 24px;
+    letter-spacing: -0.1px;
+    text-align: left;
+}
+
+.contact {
+    display: block;
+    font-size: 12px;
+    line-height: 12px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding-left: 23px;
+    position: relative;
+    color: #f0d8d9;
+}
+
+.contact:hover {
+    text-decoration: underline;
+}
+
+.contact::before {
+    content: "";
+    width: 13px;
+    height: 12px;
+    position: absolute;
+    left: 0;
+    background-repeat: no-repeat;
+}
+
+
+.contact_location {
+    letter-spacing: -0.2px;
+}
+
+.contact_location {
+    font-size: 12px;
+    margin-left: 3px;
+    margin-top: 1px;
+}
+
+.phone {
+    margin-left: 1px;
+    margin-top: 2px;
+
+}
+
+.contact_phone {
+    color: #F0D8D9;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+
+.contact_mail {
+    font-size: 12px;
+    margin-top: 2px;
+    color: #F0D8D9;
+    text-decoration: none;
+    margin-top: 3px;
+}
+
+.footer {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1020px;
+    height: 76px;
+    background-color: #2d303a;
+}
+
+.copyright {
+    position: absolute;
+    font-size: 12px;
+    line-height: 22px;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    padding-left: 40px;
+
+    padding-top: 33px;
+    color: #666D89;
+}
+
+
+
+.buttons {
+    padding-top: 20px;
+    padding-left: 825px;
+}
+
+.button {
+    margin-left: 3px;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: #2d303a;
+    border: 1px solid #666d89;
+}
+
+.button:hover {
+    opacity: 0.3;
+}
